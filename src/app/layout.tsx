@@ -23,13 +23,13 @@ export const metadata: Metadata = {
       description: 'Retiro desde el coche.',
       title: 'Panaderia Trapiche',
       locale: 'en-US',
-      images: '/trapiche-logo2.png',
-      videos: 'https://www.youtube.com/watch?v=ti2ob5111g8'
+      images: '/panaderia-trapiche-logo.png',
+      //videos: 'https://www.youtube.com/watch?v=ti2ob5111g8'
   },
   twitter: {
       card: 'summary_large_image',
       title: 'Panaderia Trapiche',
-      images: '/trapiche-logo2.png',
+      images: '/panaderia-trapiche-logo.png',
       description: 'Retiro desde el coche.',
   }
 }

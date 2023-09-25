@@ -26,8 +26,20 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.logo {
-  position: absolute;
-  top: 10px; /* Distance from the top of the container */
-  left: 10px; /* Distance from the left side of the container */
+@media (min-width: 640px) {
+  .logo {
+    position: absolute;
+    top: 10px; /* Distance from the top of the container */
+    left: 10px; /* Distance from the left side of the container */
+  }
+}
+
+@media (max-width: 640px) {
+  .logo {
+    position: absolute;
+    width: 200px;
+    top: 15%; /* Distance from the top of the container */
+    left: 50%; /* Distance from the left side of the container */
+    transform: translate(-50%, -50%); /* Centers the logo */
+  }
 }

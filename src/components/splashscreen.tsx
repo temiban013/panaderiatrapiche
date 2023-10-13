@@ -40,7 +40,7 @@ export default function SplashScreen () {
           <div className="w-32 mx-auto mb-4 logo rounded">
               <Image src={logos[logoIndex]} alt="Logo" layout="responsive" width={12} height={12} onClick={alternateLogo}/>
           </div>
-          <div className="text-center" style={{ transform: 'translateY(-666%)' }}>
+          <div className="text-center" style={{ transform: 'translateY(-333%)' }}>
               <h1 className="text-4xl font-bold text-white">Coming Soon</h1>
           </div>
       </div>

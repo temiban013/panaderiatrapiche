@@ -13,8 +13,14 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      textShadow: {
+        'black-outline': '2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000'
+      }
     },
   },
-  plugins: [],
+  variants: {},
+  plugins: [
+    require('tailwindcss-textshadow')
+  ],
 }
 export default config

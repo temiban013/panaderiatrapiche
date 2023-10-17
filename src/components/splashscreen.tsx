@@ -1,8 +1,7 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import Image from 'next/image'
-import Head from 'next/head'
 
 export default function SplashScreen () {
   const logos = ['/panaderia-trapiche-logo1.gif', '/panaderia-trapiche-logo2.gif', '/panaderia-trapiche-logo3.gif']
@@ -31,10 +30,6 @@ export default function SplashScreen () {
 
   return (
     <>
-      <Head>
-        <title>Panaderia Trapiche</title>
-        <meta name='description' content='Retiro desde el coche' />
-      </Head>
       <div className="flex items-center justify-center min-h-screen bg-cover bg-center" 
         style={{ backgroundImage: `url(${backgrounds[backgroundIndex]})` }}>
           <div className="w-32 mx-auto mb-4 logo rounded">

@@ -11,7 +11,7 @@ export default function MenuCarousel () {
                             backgroundPosition: '65% bottom',
                             backgroundRepeat: 'no-repeat',
                             backgroundSize: 'cover',}}>
-                <div className='relative sm:fixed top-20 left-1/2 transform -translate-x-1/2 flex items-center justify-center'>  
+                <div className='relative top-20 left-1/2 transform -translate-x-1/2 flex items-center justify-center'>  
                     <div className='absolute flex items-center justify-center pb-24'> 
                         <div className='relative w-40 h-58'>
                             <Image src='https://res.cloudinary.com/drc0myo7z/image/upload/v1697631966/Trapiche/logos/panaderia-trapiche-logo-transp_svx12v.gif' 
@@ -24,9 +24,7 @@ export default function MenuCarousel () {
                     </div>     
                 </div>
                 <div className="lg:text-3xl md:text-2xl" >
-                                
-
-                    <div className='grid grid-cols-1 sm:grid-cols-2 gap-5 pt-16 sm:pt-60 mx-5'>
+                    <div className='grid grid-cols-1 sm:grid-cols-2 gap-5 pt-16 sm:pt-10 mx-5'>
                         <div className='flex flex-col gap-1 sm:gap-3 p-5 bg-black/30 rounded-3xl'>
                             <div className='flex space-x-3'>
                                 <div className='text-white text-shadow-black-outline whitespace-nowrap'>Pan Sobao:</div>                        

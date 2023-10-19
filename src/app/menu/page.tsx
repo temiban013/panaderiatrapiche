@@ -8,7 +8,7 @@ export default function Menu() {
         <>
           <Head>
             <title>Panaderia Trapiche</title>
-            <meta name='description' content='Retiro desde el coche' />
+            <meta name='description' content='Variedad de panes artensanales, cafés y más.' />
           </Head>
           <MenuCarousel />
         </>

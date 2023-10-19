@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('/styles/font.css');
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -18,7 +21,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+  font-family: 'Bebas Neue', sans-serif;
   font-style: 'text-shadow-black-outline';
+
   background: linear-gradient(
       to bottom,
       transparent,

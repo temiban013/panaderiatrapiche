@@ -30,12 +30,21 @@ export default function SplashScreen () {
 
   return (
     <>
-      <div className="flex items-center justify-center min-h-screen bg-cover bg-center" 
+      <div className="flex flex-col min-h-screen bg-cover bg-center justify-start" 
         style={{ backgroundImage: `url(${backgrounds[backgroundIndex]})` }}>
-          <div className="w-32 mx-auto mb-4 logo rounded">
-              <Image src={logos[logoIndex]} alt="Logo" layout="responsive" width={12} height={12} onClick={alternateLogo}/>
+          <div className='flex items-center justify-center sm:justify-start pt-28 pb-16 pl-0 sm:pl-16'>  
+              <div className='absolute ml-0 sm:ml-4 flex pb-24'> 
+                  <div className='relative w-40 h-58'>
+                      <Image src='https://res.cloudinary.com/drc0myo7z/image/upload/v1697631966/Trapiche/logos/panaderia-trapiche-logo-transp_svx12v.gif' 
+                          alt="Logo" layout="responsive" width={12} height={12}/>
+                  </div>
+              </div>    
+              <div className="relative w-48 h-48">
+                  <Image src='https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_256/v1697420759/Trapiche/logos/Logos-Trapiche-Bakery-1-_1__yg7wqm.gif' 
+                      alt="Logo" layout="responsive" width={12} height={12}/>
+              </div>     
           </div>
-          <div className="text-center" style={{ transform: 'translateY(-333%)' }}>
+          <div className="text-center bg-black/30 mx-80 py-5 rounded-3xl text-shadow-black-outline whitespace-nowrap">
               <h1 className="text-4xl font-bold text-white">Coming Soon</h1>
           </div>
       </div>

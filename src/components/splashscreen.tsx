@@ -46,7 +46,7 @@ export default function SplashScreen () {
           </div>
           <div className="flex items-center justify-center">
             <div className="text-center bg-black/30 w-80 py-5 rounded-3xl text-shadow-black-outline whitespace-nowrap">
-              <h1 className="text-4xl font-bold text-white">Coming Soon</h1>
+              <h1 className="text-4xl font-bold text-amber-200">Coming Soon</h1>
             </div>
           </div>
       </div>

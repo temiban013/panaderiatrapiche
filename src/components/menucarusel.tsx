@@ -5,7 +5,7 @@ import Panes from '../components/panes';
 import Postres from '../components/postres';
 
 export default function MenuCarousel() {
-  const [showPanes, setShowPanes] = useState(false);
+  const [showPanes, setShowPanes] = useState(true);
 
   useEffect(() => {
     const interval = setInterval(() => {

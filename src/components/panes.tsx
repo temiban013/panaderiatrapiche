@@ -5,21 +5,17 @@ import Image from "next/image"
 export default function Panes() {
     return (
         <>
-            <div className='min-h-screen bg-cover min-w-[380px]'
-                    style={{ backgroundImage: `url(https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_1080/v1697413842/Trapiche/lsgceibitwu69x9ntulf_hyrbwy.jpg)`,
-                            backgroundPosition: '65% bottom',
-                            backgroundRepeat: 'no-repeat',
-                            backgroundSize: 'cover',}}>
+            <div className='min-h-screen bg-cover min-w-[380px] bg-panes'>
                 <div className='relative top-20 left-1/2 transform -translate-x-1/2 flex items-center justify-center min-w-[311px]'>  
                     <div className='absolute flex items-center justify-center pb-24'> 
-                        <div className='relative w-40 h-58'>
+                        <div className='relative w-32 h-50'>
                             <Image src='https://res.cloudinary.com/drc0myo7z/image/upload/v1697631966/Trapiche/logos/panaderia-trapiche-logo-transp_svx12v.gif' 
-                                alt="Logo" layout="responsive" width={12} height={12}/>
+                                alt="Logo" layout="responsive" width={10} height={10}/>
                         </div>
                     </div>    
-                    <div className="relative w-48 h-48">
+                    <div className="relative w-40 h-40">
                         <Image src='https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_256/v1697420759/Trapiche/logos/Logos-Trapiche-Bakery-1-_1__yg7wqm.gif' 
-                            alt="Logo" layout="responsive" width={12} height={12}/>
+                            alt="Logo" layout="responsive" width={10} height={10}/>
                     </div>     
                 </div>
                 <div className="lg:text-3xl md:text-2xl" >

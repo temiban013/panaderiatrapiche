@@ -14,17 +14,15 @@ export default function Platos() {
                     <div className="sm:order-1 order-2 justify-center items-center sm:pt-24 pt-0 pl-10 sm:pr-0 pr-10">
                         <div className="flex flex-col items-stretch gap-1 sm:gap-2 bg-black/30 rounded-3xl lg:text-3xl md:text-2xl p-10">
                             <div className="text-white text-center font-bold lg:text-4xl md:text-3xl text-2xl text-shadow-black-outline pb-10">
-                                Variedad de Postres
+                                Menú Variado
                             </div>
                             
                             <div className='flex py-5 lg:pl-14 md:pl-8 sm:pl-5 gap-3'>
                                 <ul className="list-disc lg:leading-relaxed leading-normal  text-white text-shadow-black-outline text-left">
-                                    <li>Cheesecake de Oreo</li>
-                                    <li>Cheesecake de chocolate</li>
-                                    <li>Cheesecake de fresa</li>
-                                    <li>Brazo Gitano</li>
-                                    <li>Budín</li>
-                                    <li>Bizcochos</li>
+                                    <li>Pechuga a la Mexicana</li>
+                                    <li>Almuerzo Criollo</li>
+                                    <li>Dorado en Salsa Criolla</li>
+                                    <li>Lomo de Cerdo en salsa de Zetas</li>
                                 </ul>
                             </div>
                         </div>
@@ -46,4 +44,3 @@ export default function Platos() {
         </>
     )
 }
-

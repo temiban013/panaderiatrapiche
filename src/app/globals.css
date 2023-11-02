@@ -33,25 +33,6 @@ body {
 }
 
 @media (min-width: 640px) {
-  .logo {
-    position: absolute;
-    width: 175px;
-    top: 15px; /* Distance from the top of the container */
-    left: 55px; /* Distance from the left side of the container */
-  }
-}
-
-@media (max-width: 640px) {
-  .logo {
-    position: absolute;
-    width: 165px;
-    top: 13%; /* Distance from the top of the container */
-    left: 50%; /* Distance from the left side of the container */
-    transform: translate(-50%, -50%); /* Centers the logo */
-  }
-}
-
-@media (min-width: 640px) {
   .bg-panes {
     background-image: url('https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_1080/v1697413842/Trapiche/lsgceibitwu69x9ntulf_hyrbwy.jpg');
     background-repeat: no-repeat;

@@ -1,16 +1,13 @@
-'use client'
+'use server'
 
 import Head from 'next/head'
-import MenuCarousel from '../../components/menucarusel';
+import LongMenu from '../../components/longmenu'
+import Layout from './layout'
 
-export default function Menu() {
-    return (
-        <>
-          <Head>
-            <title>Panaderia Trapiche</title>
-            <meta name='description' content='Variedad de panes artensanales, cafés y más.' />
-          </Head>
-          <MenuCarousel />
-        </>
-      )
+export default async function Menu() {
+  return (
+    <Layout>
+      <LongMenu />
+    </Layout>
+  )
 }

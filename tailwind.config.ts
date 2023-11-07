@@ -20,6 +20,12 @@ const config: Config = {
         'black-outline': '2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000'
       }
     },
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      'trapiche-orange': '#dd612d',
+      'trapiche-tan': '#fed3a1',
+    },
   },
   variants: {},
   plugins: [

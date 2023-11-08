@@ -13,8 +13,8 @@ export default async function ContactUs() {
         <div className='text-xl md:text-4xl lg:text-5xl font-bold text-trapiche-tan p-5'>
           <Link href="/menu">Menu</Link>
         </div>
-        <div className='text-xl whitespace-nowrap md5text-6xl lg:text-7xl font-bold text-trapiche-tan p-5'>
-          <Link href="/aboutus">De nosotros</Link>
+        <div className='text-xl whitespace-nowrap md5text-6xl lg:text-5xl font-bold text-trapiche-tan p-5'>
+          <Link href="/aboutus">Nosotros</Link>
         </div>
       </div>        
       <div className="relative top-16 flex flex-col justify-center items-center">

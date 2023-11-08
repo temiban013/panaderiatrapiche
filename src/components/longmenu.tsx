@@ -38,7 +38,7 @@ export default function LongMenu() {
           <Link href="/aboutus">Nosotros</Link>
         </div>
         <div className='text-2xl md:text-3xl lg:text-4xl font-bold text-trapiche-tan text-center text-shadow-black-outline p-4 md:p-8 lg:p-10'>
-          <Link href="/contactus">Contactenos</Link>
+          <Link href="/contactus">Contáctenos</Link>
         </div>
       </div>
       <div className="absolute top-14 md:top-28 lg:top-44 right-8 lg:right-1/4 md:right-36">

@@ -33,7 +33,7 @@ export default function SplashScreen () {
             <Link href="/aboutus">Nosotros</Link>
           </div>
           <div className='text-3xl md:text-4xl lg:text-5xl font-bold text-trapiche-tan text-center text-shadow-black-outline p-10'>
-            <Link href="/contactus">Contactenos</Link>
+            <Link href="/contactus">Contáctenos</Link>
           </div>
         </div>
       </div>

@@ -26,13 +26,13 @@ export default function SplashScreen () {
           </div>
         </div>
         <div className='flex flex-col justify-center items-center pt-44'>
-          <div className='text-5xl md:text-6xl lg:text-7xl font-bold text-trapiche-tan text-center text-shadow-black-outline p-10'>
+          <div className='text-4xl md:text-5xl lg:text-7xl font-bold text-trapiche-tan text-center text-shadow-black-outline p-10'>
             <Link href="/menu">Menu</Link>
           </div>
-          <div className='text-5xl md:text-6xl lg:text-7xl font-bold text-trapiche-tan text-center text-shadow-black-outline p-10'>
-            <Link href="/aboutus">De nosotros</Link>
+          <div className='text-4xl md:text-5xl lg:text-7xl font-bold text-trapiche-tan text-center text-shadow-black-outline p-10'>
+            <Link href="/aboutus">De Nosotros</Link>
           </div>
-          <div className='text-5xl md:text-6xl lg:text-7xl font-bold text-trapiche-tan text-center text-shadow-black-outline p-10'>
+          <div className='text-4xl md:text-5xl lg:text-7xl font-bold text-trapiche-tan text-center text-shadow-black-outline p-10'>
             <Link href="/contactus">Contactenos</Link>
           </div>
         </div>

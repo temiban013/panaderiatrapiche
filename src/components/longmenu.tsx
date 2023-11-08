@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function LongMenu() {
   return (
     <>
-      <div className="snap-x snap-mandatory snap-align-start snap-justify-start overflow-x-auto">
+      <div className="snap-x snap-mandatory snap-align-start snap-justify-start overflow-x-auto bg-trapiche-orange">
 
           <Image className="snap-center shrink-0" alt='Dish 1' src="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_1080/v1694794032/Trapiche/csfog9quttnwc4fslclk.jpg" width={2000} height={533} />
           <Image className="snap-center shrink-0" alt='Menu 1' src="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_1080/v1698865366/Trapiche/Menus/Trapiche_web_4_vkohwz.jpg" width={2000} height={533} />

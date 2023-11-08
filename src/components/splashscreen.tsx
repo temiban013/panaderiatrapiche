@@ -15,7 +15,7 @@ export default function SplashScreen () {
 
   return (
     <>
-      <div className="flex flex-col min-h-screen bg-cover bg-center justify-center items-center" 
+      <div className="flex flex-col min-h-screen bg-cover bg-center bg-trapiche-orange justify-center items-center" 
         style={{ backgroundImage: `url(https://res.cloudinary.com/drc0myo7z/image/upload/v1694794032/Trapiche/csfog9quttnwc4fslclk.jpg)` }}>
         <div className="-top-2 relative flex flex-col justify-center items-center">
           <div className="absolute -top-12 w-32 md:w-32">

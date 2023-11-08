@@ -31,13 +31,13 @@ export default function LongMenu() {
         
       </div>
       <div className='absolute top-8 md:top-28 lg:top-44 left-3 md:left-16 lg:left-20'>
-        <div className='text-3xl sm:text-3xl md:text-5xl lg:text-7xl font-bold text-trapiche-tan text-center text-shadow-black-outline p-4 md:p-8 lg:p-10'>
+        <div className='text-2xl md:text-3xl lg:text-4xl font-bold text-trapiche-tan text-center text-shadow-black-outline p-4 md:p-8 lg:p-10'>
           <Link href="/">Inicio</Link>
         </div>
-        <div className='text-3xl sm:text-3xl md:text-5xl lg:text-7xl font-bold text-trapiche-tan text-center text-shadow-black-outline p-4 md:p-8 lg:p-10'>
+        <div className='text-2xl md:text-3xl lg:text-4xl font-bold text-trapiche-tan text-center text-shadow-black-outline p-4 md:p-8 lg:p-10'>
           <Link href="/aboutus">De nosotros</Link>
         </div>
-        <div className='text-3xl sm:text-3xl md:text-5xl lg:text-7xl font-bold text-trapiche-tan text-center text-shadow-black-outline p-4 md:p-8 lg:p-10'>
+        <div className='text-2xl md:text-3xl lg:text-4xl font-bold text-trapiche-tan text-center text-shadow-black-outline p-4 md:p-8 lg:p-10'>
           <Link href="/contactus">Contactenos</Link>
         </div>
       </div>

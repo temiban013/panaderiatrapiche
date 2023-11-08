@@ -7,13 +7,13 @@ export default async function ContactUs() {
   return (
     <div className="flex flex-col bg-cover bg-trapiche-orange min-h-screen p-14">
       <div className='flex justify-center items-center'>
-        <div className='text-2xl md:text-6xl lg:text-7xl font-bold text-trapiche-tan p-5'>
+        <div className='text-xl md:text-4xl lg:text-5xl font-bold text-trapiche-tan p-5'>
           <Link href="/">Inicio</Link>
         </div>
-        <div className='text-2xl md:text-6xl lg:text-7xl font-bold text-trapiche-tan p-5'>
+        <div className='text-xl md:text-4xl lg:text-5xl font-bold text-trapiche-tan p-5'>
           <Link href="/menu">Menu</Link>
         </div>
-        <div className='text-2xl whitespace-nowrap md:text-6xl lg:text-7xl font-bold text-trapiche-tan p-5'>
+        <div className='text-xl whitespace-nowrap md5text-6xl lg:text-7xl font-bold text-trapiche-tan p-5'>
           <Link href="/aboutus">De nosotros</Link>
         </div>
       </div>        
@@ -27,11 +27,11 @@ export default async function ContactUs() {
       </div>
       <div className='flex w-full flex-col pt-48 justify-center text-center'>
         <div className="text-4xl text-trapiche-tan pb-10 pt-24">Contact Us</div>
-        <div className="text-xl pb-3">187 Luna Street,</div>
+        <a href="https://www.google.com/maps/search/?api=1&query=Panaderia Trapiche,+San+Germán,+00683,+Puerto+Rico" className="sm:inline-block text-xl pb-3">187 Luna Street,</a>
         <div className="text-xl pb-3"> Edificio Rali 105</div>
         <div className="text-xl pb-3">San Germán, 00683</div>
         <div className="text-xl pb-3">Puerto Rico.</div>
-        <div className="text-xl pb-3">+1 787-892-4673</div>
+        <a href="tel:+17878924673" className="sm:inline-block text-xl pb-3">+1 787-892-4673</a>
       </div>
     </div>
   )

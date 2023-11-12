@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('/styles/font.css');
 
 :root {
   --foreground-rgb: 0, 0, 0;

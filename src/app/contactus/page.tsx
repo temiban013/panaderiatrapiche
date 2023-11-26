@@ -8,11 +8,11 @@ export default async function ContactUs() {
   return (
     <div className="flex flex-col bg-cover bg-trapiche-orange min-h-screen p-14">
       <Head>
-        <title>Contact Us | Panaderia Trapiche</title>
-        <meta name="description" content="Get in touch with Panaderia Trapiche. Find our location, phone number, and email address." />
+        <title>Panaderia Trapiche | Contáctenos</title>
+        <meta name="description" content="Póngase en contacto con Panaderia Trapiche. Encuentre nuestra ubicación, número de teléfono y dirección de correo electrónico. Conozca nuestros horarios de atención, siga nuestras redes sociales para actualizaciones, vea el mapa para encontrar nuestra ubicación con facilidad y disfrute de las fotos de nuestra panadería." />
         <link rel="icon" href="/favicon.ico" />
-        <meta property="og:title" content="Contact Us | Panaderia Trapiche" />
-        <meta property="og:description" content="Get in touch with Panaderia Trapiche. Find our location, phone number, and email address." />
+        <meta property="og:title" content="Panaderia Trapiche | Contáctanos" />
+        <meta property="og:description" content="Póngase en contacto con Panaderia Trapiche. Encuentre nuestra ubicación, número de teléfono y dirección de correo electrónico. Conozca nuestros horarios de atención, siga nuestras redes sociales para actualizaciones, vea el mapa para encontrar nuestra ubicación con facilidad y disfrute de las fotos de nuestra panadería." />
         <meta property="og:image" content="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_1080/v1694794024/Trapiche/mhezye1pgxvzmrsuqpqp.jpg" />
         <meta property="og:url" content="https://panaderiatrapiche.com/contactus" />
         <meta property="og:type" content="website" />

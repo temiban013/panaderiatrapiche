@@ -28,7 +28,7 @@ export default async function ContactUs() {
       <div className='flex w-full flex-col pt-48 justify-center text-center'>
         <div className="text-4xl text-trapiche-tan pb-10 pt-24">Contact Us</div>
         <a href="https://www.google.com/maps/search/?api=1&query=Panaderia Trapiche,+San+Germán,+00683,+Puerto+Rico" className="sm:inline-block text-xl pb-3">187 Luna Street,</a>
-        <div className="text-xl pb-3"> Edificio Rali 105</div>
+        <div className="text-xl pb-3"> Ave. Atléticos #191</div>
         <div className="text-xl pb-3">San Germán, 00683</div>
         <div className="text-xl pb-3">Puerto Rico.</div>
         <a href="tel:+17878924673" className="sm:inline-block text-xl pb-3">+1 787-892-4673</a>

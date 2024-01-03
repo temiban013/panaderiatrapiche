@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Proxima Nova"', 'Inter', 'sans-serif'],
+        sans: ['"Proxima Nova"', 'sans-serif'],
       },
       backgroundImage: theme => ( {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

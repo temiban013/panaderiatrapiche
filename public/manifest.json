@@ -1,0 +1,14 @@
+{
+    "name": "Panadería Trapiche",
+    "short_name": "Panadería Trapiche",
+    "start_url": "/",
+    "display": "standalone",
+    "description": "Panadería Trapiche es conocida por su delicioso pan de manteca y budín de pan. Ofrecemos una amplia variedad de panes artesanales, dulces, sándwiches y comidas criollas. Nuestro menú incluye opciones de café y cappuccino, más de diez tipos de panes artesanales, pizzas con opciones de carne y vegetales, ensaladas, sándwiches, wraps, frituras y un menú variado de platos principales y postres. Visítanos en nuestro local ampliado con serví carro y disfruta de la panadería favorita en San Germán y pueblos limítrofes.",
+    "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "any",
+          "type": "image/x-icon"
+        }
+      ]
+}

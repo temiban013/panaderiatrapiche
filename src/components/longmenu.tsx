@@ -8,9 +8,15 @@ export default function LongMenu() {
     <>
       <div className="snap-x snap-mandatory snap-align-start snap-justify-start overflow-x-auto bg-trapiche-orange">
 
-          <Image className="snap-center shrink-0" alt='Dish 1' src="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_1080/v1694794032/Trapiche/csfog9quttnwc4fslclk.jpg" width={2000} height={533} />
-          <Image className="snap-center shrink-0" alt='Menu 1' src="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_1080/v1702497899/Trapiche/Menus/Trapiche_web_1_mdpcmf.jpg?v=1" width={2000} height={533} />
+          <Image className="snap-center shrink-0" alt='Dish 1' src="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_1080/v1694794032/Trapiche/csfog9quttnwc4fslclk.jpg?v=2" width={2000} height={533} />
+          <Image className="snap-center shrink-0" alt='Menu 1' src="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_1080/v1702497899/Trapiche/Menus/Trapiche_web_1_mdpcmf.jpg?v=2" width={2000} height={533} />
           
+          <Image className='snap-center shrink-0' alt='Menu 1.1' src="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_1080/v1704382510/Trapiche/Menus/Trapiche_8_m0meru.jpg?v=2" width={2000} height={533} />
+          <Image className='snap-center shrink-0' alt='Menu 1.2' src="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_1080/v1704382510/Trapiche/Menus/Trapiche_9_flqdaj.jpg?v=2" width={2000} height={533} />
+          <Image className='snap-center shrink-0' alt='Menu 1.3' src="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_1080/v1704382509/Trapiche/Menus/Trapiche_10_xpaqvd.jpg?v=2" width={2000} height={533} />
+          <Image className='snap-center shrink-0' alt='Menu 1.4' src="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_1080/v1704382511/Trapiche/Menus/Trapiche_11_ikubbc.jpg?v=2" width={2000} height={533} />
+          <Image className='snap-center shrink-0' alt='Menu 1.5' src="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_1080/v1704382510/Trapiche/Menus/Trapiche_12_wtz4ll.jpg?v=2" width={2000} height={533} />
+
           <Image className="snap-center shrink-0" alt='Dish 2' src="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_1080/v1694793711/Trapiche/e3vdyaka8jvufm9nihhb.jpg" width={2000} height={533} />
           <Image className="snap-center shrink-0" alt='Menu 2' src="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_1080/v1702497905/Trapiche/Menus/Trapiche_web_2_c0wxs0.jpg?v=1" width={2000} height={533} />
 
@@ -21,7 +27,7 @@ export default function LongMenu() {
           <Image className="snap-center shrink-0" alt='Menu 4' src="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_1080/v1702497908/Trapiche/Menus/Trapiche_web_4_dtijvp.jpg?v=1" width={2000} height={533} />
 
           <Image className="snap-center shrink-0" alt='Dish 5' src="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_1080/v1694794037/Trapiche/n1uqrvehui4pisinbe3r.jpg" width={2000} height={533} />
-          <Image className="snap-center shrink-0" alt='Menu 5' src="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_1080/v1702497905/Trapiche/Menus/Trapiche_Web_5_zdbyl4.jpg?v=1" width={2000} height={533} />
+          <Image className="snap-center shrink-0" alt='Menu 5' src="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_1080/v1704382504/Trapiche/Menus/Trapiche_13_ib5nbw.jpg" width={2000} height={533} />
 
           <Image className="snap-center shrink-0" alt='Dish 6' src="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_1080/v1694794022/Trapiche/bs8mjahgqcs3fynxsyci.jpg" width={2000} height={533} />
           <Image className="snap-center shrink-0" alt='Menu 6' src="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_1080/v1702497904/Trapiche/Menus/Trapiche_web_6_celnpe.jpg?v=1" width={2000} height={533} />

@@ -28,7 +28,7 @@ export default async function ContactUs() {
         <div className='text-xl md:text-4xl lg:text-5xl font-bold text-trapiche-tan p-5'>
           <Link href="/menu">Menu</Link>
         </div>
-        <div className='text-xl whitespace-nowrap md5text-6xl lg:text-5xl font-bold text-trapiche-tan p-5'>
+        <div className='text-xl whitespace-nowrap md:text-4xl lg:text-5xl font-bold text-trapiche-tan p-5'>
           <Link href="/aboutus">Nosotros</Link>
         </div>
       </div>        

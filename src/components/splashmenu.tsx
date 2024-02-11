@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 
-export default function Menu (){
+export default function SplashMenu (){
   return(    
     <div className='flex flex-col justify-center items-center pt-44'>
     <div className='text-3xl md:text-4xl lg:text-5xl font-bold text-trapiche-tan text-center text-shadow-black-outline p-10'>

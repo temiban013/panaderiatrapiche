@@ -18,7 +18,7 @@ export default function LongMenu() {
         <Image
           className="snap-center shrink-0"
           alt="Menu 1"
-          src="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_1080/Trapiche/Menus/Trapiche01.jpg?v=4"
+          src="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_1080/Trapiche/Menus/Trapiche01a.jpg?v=4"
           priority
           width={1500}
           height={533}
@@ -168,7 +168,7 @@ export default function LongMenu() {
         <Image
           className="snap-center shrink-0"
           alt="Menu 1"
-          src="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_768/Trapiche/Menus/Trapiche01.jpg?v=4"
+          src="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_768/Trapiche/Menus/Trapiche01a.jpg?v=4"
           priority
           width={1000}
           height={533}
@@ -318,7 +318,7 @@ export default function LongMenu() {
         <Image
           className="snap-center shrink-0"
           alt="Menu 1"
-          src="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_640/Trapiche/Menus/Trapiche01.jpg?v=4"
+          src="https://res.cloudinary.com/drc0myo7z/image/upload/c_scale,w_640/Trapiche/Menus/Trapiche01a.jpg?v=4"
           priority
           width={700}
           height={533}

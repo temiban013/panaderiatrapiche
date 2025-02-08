@@ -307,7 +307,7 @@ export default function LongMenu() {
           height={533}
         />
       </div>
-      <div className="sm:block md:hidden lg:hidden snap-x snap-mandatory snap-align-start snap-justify-start overflow-x-auto bg-trapiche-orange">
+      {/* <div className="sm:block md:hidden lg:hidden snap-x snap-mandatory snap-align-start snap-justify-start overflow-x-auto bg-trapiche-orange">
         <Image
           className="snap-center shrink-0"
           alt="Dish 1"
@@ -456,7 +456,7 @@ export default function LongMenu() {
           width={700}
           height={533}
         />
-      </div>
+      </div> */}
       <div className="absolute top-8 md:top-28 lg:top-44 left-3 md:left-16 lg:left-20">
         <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-trapiche-tan text-center text-shadow-black-outline p-4 md:p-8 lg:p-10">
           <Link href="/">Inicio</Link>
